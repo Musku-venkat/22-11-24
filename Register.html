@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <fieldset>
+            <center>
+                <form action="./Registersuccess.html" method="get">
+                    <input type="text" id="user name" placeholder="user name" required/>
+                    <br>
+                    <br>
+                    <input type="text" id="Password" placeholder="Password"  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[!@#$%&]).{8,16}" title="pattern should contain atleast one small letter one capital letter one digit and any one of given symbols : !@#$%&" required/>
+                    <br>
+                    <br>
+                    <input type="email" id="Email" placeholder="Email" pattern="[a-z\d]+@(gmail|outlook|yahoo|email)+\.(com|in|org|co|)" required/>
+                    <br>
+                    <br>
+                    <input type="submit" id="Register" value="Register"/>
+                </form>
+            </center>
+        </fieldset>
+    </body>
+</html>
